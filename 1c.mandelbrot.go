@@ -66,8 +66,6 @@ func renderRow(w, h, bytes int, workChan chan int,iter int, finishChan chan bool
 }
 
 func main() {
-   runtime.GOMAXPROCS(numRoutines) 
-
    size := SIZE   // Contest settings
    iter := ITER
 
@@ -76,6 +74,7 @@ func main() {
    if flag.NArg() == 2 {
       size, _ = strconv.Atoi(flag.Arg(0))
       numRoutines, _ = strconv.Atoi(flag.Arg(1))
+      runtime.GOMAXPROCS(numRoutines)
    } else {
       fmt.Println("Input form: <filename><problem size><# of routines>")
       os.Exit(1)
