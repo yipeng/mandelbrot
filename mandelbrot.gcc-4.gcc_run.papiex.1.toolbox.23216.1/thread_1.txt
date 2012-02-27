@@ -1,0 +1,27 @@
+papiex version                : 0.99
+Executable                    : /home/yipeng/shootout-2012-02-09/shootout/bencher/programs/mandelbrot/mandelbrot.gcc-4.gcc_run
+Arguments                     : 70000
+Processor                     : Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz
+Clockrate                     : 1600.000000
+Hostname                      : toolbox
+Options                       : 
+Domain                        : User
+Parent process id             : 23215
+Process id                    : 23216
+Thread id                     : 1
+Start                         : Mon Feb 27 14:54:05 2012
+Finish                        : Mon Feb 27 14:55:21 2012
+
+Cycles .......................................      2.21196e+11
+FP Operations ................................      1.48288e+11
+
+Real usecs ...................................       7.5783e+07
+Real cycles ..................................      2.02072e+11
+Virtual usecs ................................      7.55185e+07
+Virtual cycles ...............................       1.2083e+11
+PAPI_TOT_CYC .................................      2.21196e+11
+PAPI_FP_OPS ..................................      1.48288e+11
+
+Event descriptions:
+PAPI_TOT_CYC                  : Total cycles
+PAPI_FP_OPS                   : Floating point operations

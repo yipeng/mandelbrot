@@ -1,0 +1,26 @@
+papiex version                : 0.99
+Executable                    : /home/yipeng/shootout-2012-02-09/shootout/bencher/programs/mandelbrot/ct-go-exp1-03opts.out
+Arguments                     : 80000 1
+Processor                     : Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz
+Clockrate                     : 1600.000000
+Hostname                      : toolbox
+Options                       : 
+Domain                        : User
+Parent process id             : 1
+Process id                    : 23610
+Start                         : Mon Feb 27 15:18:43 2012
+Finish                        : Mon Feb 27 15:19:30 2012
+
+Cycles .......................................       1.4398e+11
+FP Operations ................................      8.66347e+10
+
+Real usecs ...................................      4.70149e+07
+Real cycles ..................................      1.25363e+11
+Virtual usecs ................................      4.70018e+07
+Virtual cycles ...............................      7.52029e+10
+PAPI_TOT_CYC .................................       1.4398e+11
+PAPI_FP_OPS ..................................      8.66347e+10
+
+Event descriptions:
+PAPI_TOT_CYC                  : Total cycles
+PAPI_FP_OPS                   : Floating point operations

@@ -1,0 +1,27 @@
+papiex version                : 0.99
+Executable                    : /home/yipeng/shootout-2012-02-09/shootout/bencher/programs/mandelbrot/dd-exp1-C-noopts.out
+Arguments                     : 70000
+Processor                     : Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz
+Clockrate                     : 1600.000000
+Hostname                      : toolbox
+Options                       : 
+Domain                        : User
+Parent process id             : 23190
+Process id                    : 23191
+Thread id                     : 2
+Start                         : Mon Feb 27 14:45:12 2012
+Finish                        : Mon Feb 27 14:48:50 2012
+
+Cycles .......................................      6.22489e+11
+FP Operations ................................       1.5778e+11
+
+Real usecs ...................................      2.17441e+08
+Real cycles ..................................      5.79797e+11
+Virtual usecs ................................      2.12531e+08
+Virtual cycles ...............................       3.4005e+11
+PAPI_TOT_CYC .................................      6.22489e+11
+PAPI_FP_OPS ..................................       1.5778e+11
+
+Event descriptions:
+PAPI_TOT_CYC                  : Total cycles
+PAPI_FP_OPS                   : Floating point operations
